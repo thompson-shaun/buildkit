@@ -158,6 +158,6 @@ area/worker:
 # area:windows
 area/windows:
   - changed-files:
-      -all-glob-to-all-file:
-        - "!vendor/**"
-        - "**/*_windows.go"
+      - all-glob-to-all-file:
+          - "!vendor/**"
+          - "**/*_windows.go"
