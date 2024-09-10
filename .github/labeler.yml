@@ -154,11 +154,10 @@ area/util:
 area/worker:
   - changed-files:
       - any-glob-to-any-file: "worker/**"
-
 # area:windows
-area/windows:
-  - all:
-      - changed-files:
-          - any-glob-to-any-file:
-              - "**/*_windows.go"
-          - all-globs-to-all-files: "!vendor/**/*_windows.go"
+# area/windows:
+#   - all:
+#       - changed-files:
+#           - any-glob-to-any-file:
+#               - "**/*_windows.go"
+#           - all-globs-to-all-files: "!vendor/**"
